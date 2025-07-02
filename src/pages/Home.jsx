@@ -3,7 +3,7 @@ const Home = () => {
     return (
         <>
         <Header/>
-         <h1>Pagina de rick y Morty</h1>
+         <h1 className="text-center">Pagina de rick y Morty</h1>
         </>
     )
 }

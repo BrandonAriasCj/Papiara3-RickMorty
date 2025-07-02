@@ -2,6 +2,7 @@ const CardList = ({ data }) => {
 
   return (
     <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      {console.log("data: ", data)}
       {data.map((item) => {
         const { id, name, status, species, image } = item;
 

@@ -3,7 +3,7 @@ const Contactos = () => {
     return (
         <>
         <Header></Header>
-        <h1>Pagina de contactos</h1>
+        <h1 className="text-center">Pagina de contactos</h1>
         </>
     )
 }
